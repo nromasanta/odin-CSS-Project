@@ -1,0 +1,46 @@
+body {
+    margin:0;
+}
+.header {
+    font-size: 24px;
+    display:flex;
+    justify-content: space-between;
+    /*background-color: red;*/
+    border: solid black;
+}
+.logo {
+    margin-left: 250px;
+    border: solid black;
+}
+
+.links {
+    font-size: 18px;
+    display: flex;
+    border: solid black;
+    gap: 30px;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.hero {
+    display: flex;
+}
+.hero-main{
+    display:flex;
+    border: solid black;
+}
+
+.hero-sub {
+    display:flex;
+    flex-direction: column;
+    border: solid black;
+}
+
+.hero-button {
+    border: solid black;
+}
+
+.hero-right {
+    display:flex;
+    border: solid black;
+}
